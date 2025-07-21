@@ -1,29 +1,24 @@
 # 📊 Project Profitability Analyzer
 
-A **Streamlit-based dashboard** that helps visualize and analyze project profitability using real-world business metrics such as ROI, revenue, cost, profit, client distribution, and monthly trends.
-
----
+A Streamlit dashboard to analyze project profitability based on multiple filters like **Client, Status, and Month**. It includes interactive visualizations like Monthly Trends, ROI Distribution, Top Clients, and Profit vs Loss pie charts.
 
 ## 🚀 Features
 
-- 📈 Monthly Profit Trend (Bar Chart)
-- 🧮 ROI Distribution (Histogram)
-- 👥 Top 10 Clients by Total Profit
-- 🔍 Interactive Filters: Client, Month, Project Name
-- ✅ Status Labeling: Profit or Loss
-- 📊 Clean UI with dynamic visuals powered by Seaborn & Matplotlib
+- Filter by Client, Status (Profit/Loss), and Month
+- Monthly Profit Trend (Bar Chart)
+- ROI Distribution (Histogram)
+- Top Clients by Profit (Bar Chart)
+- Profit vs Loss (Pie Chart)
+- Clean UI with summary metrics and table
 
----
+## 🛠️ Tech Stack & Skills
 
-## 🛠 Tech Stack
+Python, Pandas, Streamlit, Seaborn, Matplotlib, Git, GitHub, Data Cleaning, Data Visualization, Streamlit Cloud Deployment
 
-- **Python**
-- **Pandas**
-- **Matplotlib / Seaborn**
-- **Streamlit**
-- **Git & GitHub**
+## 🖥️ Run Locally
 
----
-
-## 📂 Folder Structure
-
+```bash
+git clone https://github.com/Palak-098/project-profitability-analyzer.git
+cd project-profitability-analyzer
+pip install -r requirements.txt
+streamlit run streamlit_app.py
